@@ -1,0 +1,71 @@
+.body {
+    background-color: white;
+    color: #fff;
+   
+    
+    
+    display: block;
+    
+  
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: hidden !important;
+  }
+  
+  .window {
+    
+    margin: 40px auto;
+    
+    border-radius: 4px;
+    width: 50%;
+    padding: 20px;
+    align-self: center;
+    background-color: #333;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+  }
+  
+  .search-box {
+   width: 100%;
+    background-color: transparent;
+    border: none;
+    color: green;
+    overflow: hidden;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .search-box:focus {
+    outline: none;
+  }
+  
+  .window:after {
+    content: '';
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+    filter:blur(5px);
+    margin-top: 60px;
+    width: 50%;
+    height: 1px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .footer {
+    align-self: flex-end;
+  }
+  
+  .focus-lift {
+    transform: translateY(-60px);
+  }
+  .head{
+    color: red;
+    font-weight: 900;
+    margin-top: 40px;
+    text-align: center;
+  }
+  ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    white;
+}
+
+

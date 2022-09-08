@@ -1,0 +1,416 @@
+@import url("../vendor/icons/font-awesome/css/font-awesome.min.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 100;
+}
+body{
+    font-family: Avenir,sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+    background: #fbfbfb;
+    overflow-x: hidden !important;
+}
+.cont {
+    max-width: 1440px;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+a {
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+    position: relative;
+    padding: 0 25px;
+    color: #000 ;
+    
+}
+a, a:active, a:focus, a:hover {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.header .topbar {
+    height: 35px;
+    background: rgb(255,15,15);
+    padding: 5px 70px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1;
+    border-bottom: 3px solid #fff;
+    
+}
+.header .topbar .cont {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.header .topbar-location {
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+   
+}
+.header .topbar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+   
+}
+.topbar-links-group a {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 8px 5px;
+}
+a.btn.btn-primary-icon {
+    background-color: transparent !important;
+    color: white;
+    border: none;
+    transition: .2s ease-in-out;
+}
+
+a.btn.btn-primary-icon:hover {
+    background-color: #0f0f0f !important;
+
+    color: white;
+}
+a .link-icon {
+    display: flex;
+    margin-right: 15px;
+}
+.topbar-links-group{
+    padding-left: 30px;
+}
+ .menu-cont {
+    background: #fff;
+    height: 60px;
+    padding: 0 60px;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+    border-top: 2px solid #f1f1f1;
+}
+.cont.space-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .menu-cont .nav-cont {
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+}
+ .menu-cont .nav-cont .logo {
+    display: flex;
+    margin-right: 30px;
+    width: 130px;
+}
+ .menu-cont .nav-cont .nav-items {
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+}
+ .menu-cont .nav-cont .nav-items li {
+    margin-right: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.nav-cont .nav-items li {
+    margin-right: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+
+.header .menu-cont .nav-cont .nav-items li {
+    margin-right: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+ul li {
+    list-style: none;
+    padding: 0;
+}
+.profile-menu{
+    display: flex;
+    
+}
+.bgx{
+    background-color: rgb(255,15,15);
+   
+}
+.mr{
+    margin-right: 20px;
+}
+.ft{
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.main-wrapper {
+    min-height: calc(100vh - 95px);
+}
+.hero-cont {
+    padding: 10px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-cont .section-1 {
+    width: 45%;
+    flex: 0 0 45%;
+    height: 100%;
+    padding-right: 10px;
+}
+.hero-cont .hero-section {
+    position: relative;
+    display: flex;
+    justify-content: normal;
+    align-items: flex-end;
+    background: rgba(49,53,91,.7);
+    padding: 30px 40px;
+}
+.hero-cont .buy-car {
+    height: 100%;
+}
+
+element.style {
+    overflow: hidden;
+}
+.hero-cont .hero-section .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.hero-cont .hero-section .section-content {
+    color: #fff;
+}
+.hero-cont .hero-section .section-content .title-mini {
+    font-size: 16px;
+    font-weight: 900;
+}
+.hero-cont .hero-section .section-content .title {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 5px 0;
+    line-height: 43px;
+}
+.hero-cont .hero-section .section-content span {
+    display: block;
+}
+.hero-cont .hero-section .section-content .description {
+    font-size: 16px;
+    font-weight: 500;
+}
+.hero-cont .hero-section .section-content .button-group {
+    margin-top: 25px;
+}
+.button-group {
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+}
+.button-group .button {
+    margin-right: 25px;
+}
+.primary-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  rgb(255,15,15);
+    border-radius: 4px;
+    color: rgb(81, 69, 69);
+    width: auto;
+    padding: 0 20px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 800;
+    box-shadow: none;
+    transition: all .3s ease-in-out;
+}
+.hero-cont .section-2 {
+    width: 55%;
+    flex: 0 0 55%;
+    height: 100%;
+}
+.hero-cont .sell-car {
+    margin-bottom: 10px;
+}
+.hero-cont .sell-car {
+    height: calc(50% - 5px);
+}
+.hero-cont .fix-car, .hero-cont .sell-car {
+    height: calc(50% - 5px);
+}
+
+
+
+@media (max-width: 640px){
+.header .topbar {
+    padding: 5px 1px 5px 3px;
+}}
+@media (max-width: 640px){
+.header .topbar .cont {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}}
+@media (max-width: 640px){
+.header .topbar-links {
+    width: max-content;
+    max-width: 100%;
+}
+.h{ 
+    display: none;
+}
+}
+@media (max-width: 1024px){
+.header .topbar-links {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: fit-content;
+    max-width: 75%;
+}}
+@media (max-width: 640px){
+.header .menu-cont {
+    padding: 0 30px;
+}}
+@media (max-width: 1024px){
+.header .menu-cont .cont {
+    justify-content: space-between;
+    position: relative;
+}}
+@media (max-width: 1024px){
+.header .menu-cont .menu-toggle {
+    display: block;
+}}
+.header .menu-cont .menu-toggle {
+    width: 20px;
+    height: 2px;
+    background: #0a1133;
+    position: relative;
+    cursor: pointer;
+    display: none;
+}
+.header .menu-cont .menu-toggle:after, .header .menu-cont .menu-toggle:before {
+    width: 20px;
+    height: 2px;
+    background: #0a1133;
+    content: "";
+    position: absolute;
+}
+.header .menu-cont .menu-toggle:after {
+    bottom: -5px;
+}
+.header .menu-cont .menu-toggle:after, .header .menu-cont .menu-toggle:before {
+    width: 20px;
+    height: 2px;
+    background: #0a1133;
+    content: "";
+    position: absolute;
+}
+
+.home-section {
+    padding: 100px 50px;
+    margin: 0 10px;
+    border-radius: 6px;
+}
+.home-section .content {
+    max-width: 1070px;
+    color:  rgb(255,15,15);
+    padding-right: 50px;
+}
+.home-section .content .title {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43px;
+    padding-bottom: 60px;
+}
+.home-section .content .description {
+    font-size: 16px;
+    line-height: 29px;
+    margin: 40px 0;
+}
+footer {
+    color: #878e9c;
+    font-size: 15px;
+}
+footer .footer-top {
+    background: #171a1e;
+    padding: 80px 0 30px;
+    width: 100%;
+}
+.row {
+    --bs-gutter-x: 30px;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+footer .widget {
+    margin-bottom: 50px;
+}
+.widget_info {
+    margin-left: 0px;
+}
+.btn-primary {
+    border-color: red !important; 
+    /* border-color: #007bff; */
+}
+.bl{
+    color: #000;
+}
+.wh{
+    color: #fff;
+}
+
+@media (max-width: 768px){
+.hero-cont {
+    height: auto;
+    display: block;
+}}
+@media (max-width: 768px){
+.hero-cont .section-1 {
+    width: 100%;
+    flex: 0 0 100%;
+    height: 330px;
+    padding-right: 0;
+}}
+@media (max-width: 768px){
+.hero-cont .section-2 {
+    width: 100%;
+    flex: 0 0 100%;
+    height: auto;
+    margin-top: 10px;
+}}
+.footer-top {
+    background-image: url(https://kingswaytyres.com/theme/assets/images/footer/footer_background.jpg);
+    background-repeat: no-repeat;
+     background-size:100% 100%;
+}
+@media only screen and (max-width: 1024px){
+.footer-top{
+    background-image: none !important;
+}}
+
+
+
